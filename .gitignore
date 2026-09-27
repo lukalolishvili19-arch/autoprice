@@ -1,0 +1,13 @@
+.env
+**/target/
+**/.next/
+**/node_modules/
+**/__pycache__/
+**/.venv/
+*.log
+.idea/
+.vscode/
+frontend/next-env.d.ts
+**/.pytest_cache/
+tmp_*
+.env.local

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap');
+@import 'leaflet/dist/leaflet.css';
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Outfit', 'Noto Sans Georgian', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, monospace;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 4px;
+}
+*:hover > ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+}
